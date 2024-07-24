@@ -1,0 +1,21 @@
+{
+  "name": "task_api",
+  "version": "1.0.0",
+  "description": "Api for task",
+  "main": "app.js",
+  "repository": "git@github.com:argishti-e/task_api.git",
+  "author": "Argishti <argishti@argishti.argishti>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "uuid": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
